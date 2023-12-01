@@ -1,8 +1,6 @@
 # Teste Stefanini
 
-Olá!
-
-Este é o teste <a href="https://github.com/mvdornellas/serverless-challenge">Serverless Challange</a>.
+Olá! Este é o meu teste <a href="https://github.com/mvdornellas/serverless-challenge">Serverless Challange</a>.
 
 O sistema roda em um lambda na AWS com banco de dados DynamoDB, tudo configurado por Serverless Framework rodando com NestJS.
 
@@ -37,6 +35,8 @@ Os testes unitários podem ser feitos pelo comando:
 ```bash
 yarn test
 ```
+
+Para testar as requests mais facilmente em algum software como o Postman, criei o arquivo `openapi.json`.
 
 Perdoe qualquer erro de estrutura, backend com Node+Nest e Lambda AWS foram uma novidade para mim, mas muito interessante.
 
